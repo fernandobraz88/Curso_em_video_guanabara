@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formatação de Textos</title>
+    <style>
+        .mark01{
+            background-color: rgb(0, 255, 255);
+        }
+    </style>
 </head>
 <body>
     <h1>Principais formatações</h1>
@@ -13,5 +18,11 @@
     <p>Nesta frase temos um <strong>termo em negrito</strong> usando a tag &lt;strong&gt;</p>
     <h2>Itálico/ Ênfase</h2>
     <p>Nesta frase temos um <i>termo em italico</i> usando a tag &lt;i&gt; (em desuso pois não possui função semantica)</p>
+    <p>Nesta frase temos um <em>termo em italico</em> usando a tag &lt;em&gt;</p>
+    <h2>Texto marcado</h2>
+    <p>1.Tambem podemos criar um <mark>texto marcado</mark> com a tag &lt;mark&gt;. Amarelo é a cor padrão</p>
+    <p>2.Já neste <mark style="background-color: rgb(0, 255, 0);">texto marcado</mark>, para alterar a cor, utilizei a css in line style="background-color" dentro da tag de abertura</p>
+    <p>3.Tambem poderia ter alterado a cor do <mark class="mark01">texto marcado</mark> utilizado a tag css style detro do &lt;head&gt;. Porém, para não alterar a cor do &lt;mark&gt; do tópico 1. atribuí a &lt;mark&gt; desse paragrafo a class="mark01"</p>
+    <p>4. Ainda outra forma de alterar a cor do background, seria fazê-lo diretamente no css3 e fazer o link para este html</p>
 </body>
 </html>
