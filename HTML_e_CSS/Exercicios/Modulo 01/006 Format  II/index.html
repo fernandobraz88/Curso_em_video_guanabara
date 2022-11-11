@@ -50,6 +50,16 @@ Num=int(input("Digite Numeros Inteiros para adiciona-los na lista:"))
     <p>(Com a tag &lt;pre&gt;)</p>
 
     <h2>Citações simples</h2>
+    <p>Como diria o Aristósteles: <q>A educação tem raízes amargas, mas os seus frutos são doces</q></p>
+    <p>Aqui as " " foram inseridas utilizando a tag &lt;q&gt;, recomenda-se utilzar essa tag em vez das aspas em caractéres por conta do valor semantico da tag, indicando uma citação</p>
     <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble , no seu livro de HTML para leigos:</p>
+    <blockquote cite="www.urlqualquer.com.br">
+        A diferencia entre elementos  inline e um bloco de texto é importante. Os elementos HTML nesnte capitulo descrevem os blocos de texto
+    </blockquote>
+    <p>Nas citacões complexas utilizamos a tag &lt;blockquote&gt; (citação em bloco), esta fará com que a citação fique em um paragrafo a parte e destacado, tambem permite que se possa fazer a referencia à citação implementando o atributo cite="URL do livro, do artigo ou do autor" dentro da tag de abretura da blockquote</p>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <p>Para abreviações ou siglas, utilizamos a tag &lt;abbr&gt; esta revela o significado destas quando o mouse passa sobre o texto marcado pela tag</p>
 </body>
 </html>
