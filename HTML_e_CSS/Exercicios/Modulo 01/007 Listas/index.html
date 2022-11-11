@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1><hr>
+    <h2>Listas Ordenadas</h2>
+    <p>Listas ordenadas são aquelas que a ordem faz diferença</p>
+    <p>Para se criar uma lista ordenada, deve-se usar a tag &lt;ol&gt; (ordered list) e cada item da lista deve ser acicionado utilizando a tag &lt;li&gt; (list item)</p>
+    Ex:
+    <ol>
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Trabalhar</li>
+     
+    </ol>
+    <p>Para formatar a lista, na tag de abertura pode ser inserido alguns atrigutos de formatação: </p>
+    <ul>
+        <li><em>type</em>: Modifica o marcador 
+            <ul><li>1 - Numérico (padrão)</li> 
+                <li>I - Numérico romano maiusculo</li> 
+                <li>i - Numérico romano minusculo</li>
+                <li>A - Alfabetico maiusculo</li>
+                <li>a - Alfabetico minusculo</li>
+            </ul> 
+     <br>
+        </li>
+        <li><em>start</em>: indica de qual posição a lista começa, caso ponha em uma lista alfabetica o start= "4" a lista começará a partir da letra "D"</li>
+    </ul>
+    Ex:
+    <ol type="A" start="4">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Trabalhar</li>
+    </ol>
+    <p>no caso o exemplo acima foi formatado com o seguinte padrão: <code>&lt;ol type="A" start="4"&gt;</code></p>
+    <h2>Listas não ordenadas</h2>
+    <p>Listas não ordenadas são aquelas que não possuem ordem de listagem</p>
+    <p>Para se criar uma lista não ordenada, deve-se usar a tag &lt;ul&gt; (unordered list)</p>
+    <p>Assim como nas listas ordenadas, os itens da lista serão adicionados utilizando a tag &lt;ui&gt;</p>
+    <p>Já no que diz respeito a formatação, apenas teremos o atributo <em>type</em> e este modificará apenas o design do marcador</p>
+    <p>Ex:<em>type</em>=
+        <ol><li>disc:
+            <ul type="disc">
+                <li>Pão</li>
+                <li>Manteiga</li>
+                <li>Queijo</li>
+            </ul>
+            </li>
+            <li>square:
+                <ul type="square">
+                    <li>Pão</li>
+                    <li>Manteiga</li>
+                    <li>Queijo</li>
+                </ul>
+            </li>
+            <li>circle:
+                <ul type="circle">
+                    <li>Pão</li>
+                    <li>Manteiga</li>
+                    <li>Queijo</li>
+                </ul>
+            </li>
+
+        </ol>
+    </p>
+    
+    <p>Caso não haja formatação, <em>disc</em> é o padrão</p>
+</body>
+</html>
